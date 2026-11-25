@@ -1,0 +1,108 @@
+{
+ "name": "Mauve_Print_Lehenga_Reel_Chaleya",
+ "clips_dir": "/tmp/work/clips/3",
+ "song": "/tmp/work/music/chaleya.wav",
+ "song_json": "/tmp/work/music/chaleya.json",
+ "song_start": 29.698,
+ "snap": "beats",
+ "grade": {
+  "strength": 0.3,
+  "sat_cap": 0.75,
+  "lift": 0.15,
+  "clar": 0.2
+ },
+ "shots": [
+  {
+   "clip": "DSC_4150.MOV",
+   "in": 0.9,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "turn from back, face (opener)"
+  },
+  {
+   "clip": "DSC_4144.MOV",
+   "in": 1.0,
+   "speed": 0.5,
+   "len": 2.4,
+   "move": "twirl"
+  },
+  {
+   "clip": "DSC_4151.MOV",
+   "in": 0.8,
+   "speed": 0.5,
+   "len": 2.4,
+   "move": "dupatta over camera"
+  },
+  {
+   "clip": "DSC_4148.MOV",
+   "in": 5.0,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "walks in"
+  },
+  {
+   "clip": "DSC_4147.MOV",
+   "in": 1.0,
+   "speed": 0.5,
+   "len": 2.0,
+   "move": "print detail"
+  },
+  {
+   "clip": "DSC_4152.MOV",
+   "in": 0.2,
+   "speed": 1.0,
+   "len": 1.8,
+   "move": "hair flip close"
+  },
+  {
+   "clip": "DSC_4146.MOV",
+   "in": 2.0,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "dupatta spread"
+  },
+  {
+   "clip": "DSC_4149.MOV",
+   "in": 1.0,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "pillar lean"
+  },
+  {
+   "clip": "DSC_4145.MOV",
+   "in": 3.0,
+   "speed": 1.0,
+   "len": 1.8,
+   "move": "dupatta drape full"
+  },
+  {
+   "clip": "DSC_4148.MOV",
+   "in": 10.5,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "dupatta swirl"
+  },
+  {
+   "clip": "DSC_4152.MOV",
+   "in": 5.5,
+   "speed": 1.0,
+   "len": 1.8,
+   "move": "hand up pose"
+  },
+  {
+   "clip": "DSC_4148.MOV",
+   "in": 14.0,
+   "speed": 1.0,
+   "len": 2.4,
+   "move": "smile"
+  },
+  {
+   "clip": "DSC_4150.MOV",
+   "in": 6.0,
+   "speed": 1.0,
+   "len": 2.4,
+   "move": "finale close"
+  }
+ ],
+ "end_fade": 1.6
+}

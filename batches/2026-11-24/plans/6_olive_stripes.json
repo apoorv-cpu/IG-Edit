@@ -1,0 +1,100 @@
+{
+ "name": "Olive_Sequin_Lehenga_Reel_Sahiba",
+ "clips_dir": "/tmp/work/clips/6",
+ "song": "/tmp/work/music/sahiba.wav",
+ "song_json": "/tmp/work/music/sahiba.json",
+ "song_start": 47.926,
+ "snap": "beats",
+ "grade": {
+  "strength": 0.2,
+  "sat_cap": 0.75,
+  "clar": 0.2
+ },
+ "shots": [
+  {
+   "clip": "DSC_4100.MOV",
+   "in": 1.4,
+   "speed": 1.0,
+   "len": 2.2,
+   "move": "turn with hair, face (opener)"
+  },
+  {
+   "clip": "DSC_4092.MOV",
+   "in": 2.0,
+   "speed": 0.5,
+   "len": 2.6,
+   "move": "twirl"
+  },
+  {
+   "clip": "DSC_4098.MOV",
+   "in": 6.0,
+   "speed": 1.0,
+   "len": 2.2,
+   "move": "dupatta open"
+  },
+  {
+   "clip": "DSC_4093.MOV",
+   "in": 1.0,
+   "speed": 0.5,
+   "len": 2.2,
+   "move": "skirt detail"
+  },
+  {
+   "clip": "DSC_4101.MOV",
+   "in": 0.8,
+   "speed": 1.0,
+   "len": 2.2,
+   "move": "turn close"
+  },
+  {
+   "clip": "DSC_4088.MOV",
+   "in": 1.0,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "dupatta full"
+  },
+  {
+   "clip": "DSC_4099.MOV",
+   "in": 0.5,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "hair move"
+  },
+  {
+   "clip": "DSC_4098.MOV",
+   "in": 9.0,
+   "speed": 0.5,
+   "len": 2.4,
+   "move": "dupatta swing"
+  },
+  {
+   "clip": "DSC_4097.MOV",
+   "in": 1.0,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "dupatta held"
+  },
+  {
+   "clip": "DSC_4091.MOV",
+   "in": 2.5,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "full length"
+  },
+  {
+   "clip": "DSC_4100.MOV",
+   "in": 5.0,
+   "speed": 1.0,
+   "len": 2.2,
+   "move": "smile close"
+  },
+  {
+   "clip": "DSC_4101.MOV",
+   "in": 6.0,
+   "speed": 1.0,
+   "len": 2.6,
+   "move": "finale"
+  }
+ ],
+ "end_fade": 1.6
+}

@@ -1,0 +1,107 @@
+{
+ "name": "Red_Bridal_Lehenga_Reel_TaubaTauba",
+ "clips_dir": "/tmp/work/clips/5",
+ "song": "/tmp/work/music/taubatauba.wav",
+ "song_json": "/tmp/work/music/taubatauba.json",
+ "song_start": 8.266,
+ "snap": "beats",
+ "grade": {
+  "strength": 0.2,
+  "sat_cap": 0.75,
+  "clar": 0.15
+ },
+ "shots": [
+  {
+   "clip": "DSC_4114.MOV",
+   "in": 1.5,
+   "speed": 1.0,
+   "len": 1.9,
+   "move": "enters dancing, face (opener)"
+  },
+  {
+   "clip": "DSC_4108.MOV",
+   "in": 1.0,
+   "speed": 0.5,
+   "len": 2.5,
+   "move": "twirl"
+  },
+  {
+   "clip": "DSC_4120.MOV",
+   "in": 0.5,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "veil lift"
+  },
+  {
+   "clip": "DSC_4115.MOV",
+   "in": 6.1,
+   "speed": 1.0,
+   "len": 1.9,
+   "move": "hands on hips sway"
+  },
+  {
+   "clip": "DSC_4112.MOV",
+   "in": 4.5,
+   "speed": 1.0,
+   "len": 1.9,
+   "move": "walks in"
+  },
+  {
+   "clip": "DSC_4104.MOV",
+   "in": 1.0,
+   "speed": 1.0,
+   "len": 1.9,
+   "move": "dupatta full"
+  },
+  {
+   "clip": "DSC_4116.MOV",
+   "in": 3.0,
+   "speed": 1.0,
+   "len": 1.9,
+   "move": "dance hands"
+  },
+  {
+   "clip": "DSC_4119.MOV",
+   "in": 1.0,
+   "speed": 1.0,
+   "len": 1.9,
+   "move": "potli swing"
+  },
+  {
+   "clip": "DSC_4103.MOV",
+   "in": 4.5,
+   "speed": 1.0,
+   "len": 1.9,
+   "move": "dupatta drape"
+  },
+  {
+   "clip": "DSC_4102.MOV",
+   "in": 7.0,
+   "speed": 0.5,
+   "len": 2.2,
+   "move": "skirt flare"
+  },
+  {
+   "clip": "DSC_4112.MOV",
+   "in": 8.5,
+   "speed": 1.0,
+   "len": 1.9,
+   "move": "dance"
+  },
+  {
+   "clip": "DSC_4116.MOV",
+   "in": 6.5,
+   "speed": 1.0,
+   "len": 1.9,
+   "move": "pose"
+  },
+  {
+   "clip": "DSC_4114.MOV",
+   "in": 6.8,
+   "speed": 1.0,
+   "len": 2.4,
+   "move": "finale"
+  }
+ ],
+ "end_fade": 1.6
+}

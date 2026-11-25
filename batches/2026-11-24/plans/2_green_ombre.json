@@ -1,0 +1,107 @@
+{
+ "name": "Green_Ombre_Lehenga_Reel_WhatJhumka",
+ "clips_dir": "/tmp/work/clips/2",
+ "song": "/tmp/work/music/whatjhumka.wav",
+ "song_json": "/tmp/work/music/whatjhumka.json",
+ "song_start": 84.219,
+ "snap": "beats",
+ "grade": {
+  "strength": 0.45,
+  "sat_cap": 0.75,
+  "clar": 0.15
+ },
+ "shots": [
+  {
+   "clip": "DSC_4167.MOV",
+   "in": 1.6,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "smile to camera, hand to hair (opener)"
+  },
+  {
+   "clip": "DSC_4160.MOV",
+   "in": 0.7,
+   "speed": 0.5,
+   "len": 2.4,
+   "move": "dupatta thrown over camera"
+  },
+  {
+   "clip": "DSC_4159.MOV",
+   "in": 0.5,
+   "speed": 0.5,
+   "len": 2.5,
+   "move": "twirl with dupatta"
+  },
+  {
+   "clip": "DSC_4162.MOV",
+   "in": 5.4,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "turn, look over shoulder"
+  },
+  {
+   "clip": "DSC_4157.MOV",
+   "in": 0.6,
+   "speed": 1.0,
+   "len": 1.7,
+   "move": "dupatta swing, full length"
+  },
+  {
+   "clip": "DSC_4168.MOV",
+   "in": 7.6,
+   "speed": 1.0,
+   "len": 1.8,
+   "move": "close smile"
+  },
+  {
+   "clip": "DSC_4161.MOV",
+   "in": 0.4,
+   "speed": 0.5,
+   "len": 2.0,
+   "move": "skirt detail sway"
+  },
+  {
+   "clip": "DSC_4156.MOV",
+   "in": 3.0,
+   "speed": 0.5,
+   "len": 2.2,
+   "move": "dupatta drape"
+  },
+  {
+   "clip": "DSC_4158.MOV",
+   "in": 1.2,
+   "speed": 1.0,
+   "len": 1.7,
+   "move": "dupatta adjust, full"
+  },
+  {
+   "clip": "DSC_4162.MOV",
+   "in": 7.6,
+   "speed": 1.0,
+   "len": 1.7,
+   "move": "smile to camera"
+  },
+  {
+   "clip": "DSC_4162.MOV",
+   "in": 9.4,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "hand through hair"
+  },
+  {
+   "clip": "DSC_4168.MOV",
+   "in": 0.5,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "close, playful"
+  },
+  {
+   "clip": "DSC_4162.MOV",
+   "in": 12.6,
+   "speed": 1.0,
+   "len": 2.6,
+   "move": "finale pose"
+  }
+ ],
+ "end_fade": 1.6
+}

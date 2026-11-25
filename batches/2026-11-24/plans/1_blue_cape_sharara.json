@@ -1,0 +1,92 @@
+{
+ "name": "Blue_Cape_Sharara_Reel_Saiyaara",
+ "clips_dir": "/tmp/work/clips/1",
+ "song": "/tmp/work/music/saiyaara.wav",
+ "song_json": "/tmp/work/music/saiyaara.json",
+ "song_start": 90.604,
+ "snap": "beats",
+ "grade": {
+  "strength": 0.3,
+  "sat_cap": 0.75
+ },
+ "shots": [
+  {
+   "clip": "DSC_4182.MOV",
+   "in": 1.0,
+   "speed": 1.0,
+   "len": 2.4,
+   "move": "close, face (opener)"
+  },
+  {
+   "clip": "DSC_4172.MOV",
+   "in": 0.8,
+   "speed": 0.5,
+   "len": 2.8,
+   "move": "cape spread"
+  },
+  {
+   "clip": "DSC_4176.MOV",
+   "in": 0.0,
+   "speed": 1.0,
+   "len": 2.2,
+   "move": "back reveal"
+  },
+  {
+   "clip": "DSC_4180.MOV",
+   "in": 3.3,
+   "speed": 1.0,
+   "len": 2.2,
+   "move": "walks closer"
+  },
+  {
+   "clip": "DSC_4175.MOV",
+   "in": 0.9,
+   "speed": 0.5,
+   "len": 2.4,
+   "move": "sharara flare detail"
+  },
+  {
+   "clip": "DSC_4173.MOV",
+   "in": 0.4,
+   "speed": 0.5,
+   "len": 2.4,
+   "move": "cape swirl"
+  },
+  {
+   "clip": "DSC_4182.MOV",
+   "in": 9.8,
+   "speed": 1.0,
+   "len": 2.2,
+   "move": "smile"
+  },
+  {
+   "clip": "DSC_4176.MOV",
+   "in": 2.4,
+   "speed": 1.0,
+   "len": 2.2,
+   "move": "turn to front"
+  },
+  {
+   "clip": "DSC_4172.MOV",
+   "in": 2.8,
+   "speed": 0.5,
+   "len": 2.6,
+   "move": "twirl with cape"
+  },
+  {
+   "clip": "DSC_4180.MOV",
+   "in": 6.2,
+   "speed": 1.0,
+   "len": 2.2,
+   "move": "cape adjust"
+  },
+  {
+   "clip": "DSC_4180.MOV",
+   "in": 10.4,
+   "speed": 1.0,
+   "len": 2.6,
+   "move": "finale"
+  }
+ ],
+ "end_fade": 1.6
+}

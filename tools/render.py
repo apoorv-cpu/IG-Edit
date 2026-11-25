@@ -78,7 +78,7 @@ def main():
     name = plan["name"]
     tmp = os.path.join(out_dir, f".{name}_graded.mp4")
     W = None if sheet_only else Writer(tmp, 1080, 1920, crf=10, preset="medium")
-    report, sheet = [], []
+    report, sheet, thumbs = [], [], []
     for i, s in enumerate(plan["shots"]):
         dur = cuts[i + 1] - cuts[i]
         path = os.path.join(plan["clips_dir"], s["clip"])
@@ -97,14 +97,19 @@ def main():
             mid = frames[len(frames) // 2]
             sheet.append(np.vstack([cv2.resize(mid, (270, 480)), cv2.resize(g(mid, seg), (270, 480))]))
             seg.reset(); continue
-        for f in frames:
-            W.write(g(f, seg))
+        for k, f in enumerate(frames):
+            o = g(f, seg); W.write(o)
+            if k in (0, 4, len(frames) // 2, len(frames) - 1):
+                thumbs.append(cv2.resize(o, (180, 320)))
         seg.reset()
     if sheet_only:
         img = np.hstack(sheet)[:, :, ::-1]
         cv2.imwrite(os.path.join(out_dir, f"{name}_grade_sheet.jpg"), img, [cv2.IMWRITE_JPEG_QUALITY, 88])
         return
     W.close()
+    rows = [np.hstack(thumbs[i:i + 4]) for i in range(0, len(thumbs), 4)]
+    rows = [np.hstack(rows[i:i + 3]) if len(rows[i:i + 3]) == 3 else np.hstack(rows[i:i + 3] + [np.zeros_like(rows[0])] * (3 - len(rows[i:i + 3]))) for i in range(0, len(rows), 3)]
+    cv2.imwrite(os.path.join(out_dir, f"{name}_shots.jpg"), np.vstack(rows)[:, :, ::-1], [cv2.IMWRITE_JPEG_QUALITY, 85])
     # audio: song section, gentle fade at the end, -14 LUFS
     aud = os.path.join(out_dir, f".{name}_audio.m4a")
     fade = plan.get("end_fade", 1.5)
@@ -115,11 +120,11 @@ def main():
     f1080 = f"{base}_1080p.mp4"; f4k = f"{base}_4K.mp4"
     subprocess.run([FFMPEG, "-v", "error", "-y", "-i", tmp, "-i", aud, "-map", "0:v", "-map", "1:a",
                     "-vf", "hqdn3d=1.0:0.8:2.2:1.8,unsharp=5:5:0.35",
-                    "-c:v", "libx264", "-preset", "slow", "-crf", "15", "-pix_fmt", "yuv420p", "-r", "30",
+                    "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", "-r", "30",
                     "-c:a", "copy", "-shortest", "-movflags", "+faststart", f1080], check=True)
     subprocess.run([FFMPEG, "-v", "error", "-y", "-i", tmp, "-i", aud, "-map", "0:v", "-map", "1:a",
                     "-vf", "hqdn3d=1.0:0.8:2.2:1.8,scale=2160:3840:flags=lanczos,unsharp=5:5:0.40",
-                    "-c:v", "libx264", "-preset", "slow", "-crf", "16", "-pix_fmt", "yuv420p", "-r", "30",
+                    "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", "-r", "30",
                     "-profile:v", "high", "-level", "5.1",
                     "-c:a", "copy", "-shortest", "-movflags", "+faststart", f4k], check=True)
     os.remove(tmp); os.remove(aud)

@@ -1,0 +1,107 @@
+{
+ "name": "Champagne_Halter_Lehenga_Reel_TereVaaste",
+ "clips_dir": "/tmp/work/clips/4",
+ "song": "/tmp/work/music/terevaaste.wav",
+ "song_json": "/tmp/work/music/terevaaste.json",
+ "song_start": 52.106,
+ "snap": "hits",
+ "grade": {
+  "strength": 0.25,
+  "sat_cap": 0.75,
+  "clar": 0.15
+ },
+ "shots": [
+  {
+   "clip": "DSC_4142.MOV",
+   "in": 1.0,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "turn to camera (opener)"
+  },
+  {
+   "clip": "DSC_4135.MOV",
+   "in": 1.0,
+   "speed": 0.5,
+   "len": 2.6,
+   "move": "twirl"
+  },
+  {
+   "clip": "DSC_4138.MOV",
+   "in": 0.8,
+   "speed": 0.5,
+   "len": 2.4,
+   "move": "dupatta over camera"
+  },
+  {
+   "clip": "DSC_4140.MOV",
+   "in": 4.5,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "walks closer"
+  },
+  {
+   "clip": "DSC_4137.MOV",
+   "in": 0.5,
+   "speed": 1.0,
+   "len": 1.8,
+   "move": "dupatta flick"
+  },
+  {
+   "clip": "DSC_4141.MOV",
+   "in": 2.0,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "hair touch"
+  },
+  {
+   "clip": "DSC_4139.MOV",
+   "in": 1.0,
+   "speed": 0.5,
+   "len": 2.2,
+   "move": "dupatta swirl full"
+  },
+  {
+   "clip": "DSC_4143.MOV",
+   "in": 0.2,
+   "speed": 1.0,
+   "len": 1.8,
+   "move": "turn close"
+  },
+  {
+   "clip": "DSC_4128.MOV",
+   "in": 4.5,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "dupatta hold full"
+  },
+  {
+   "clip": "DSC_4136.MOV",
+   "in": 0.2,
+   "speed": 1.0,
+   "len": 1.8,
+   "move": "turn reveal"
+  },
+  {
+   "clip": "DSC_4142.MOV",
+   "in": 7.6,
+   "speed": 1.0,
+   "len": 1.8,
+   "move": "hair flip"
+  },
+  {
+   "clip": "DSC_4140.MOV",
+   "in": 9.5,
+   "speed": 1.0,
+   "len": 2.2,
+   "move": "hands on hips"
+  },
+  {
+   "clip": "DSC_4141.MOV",
+   "in": 9.0,
+   "speed": 1.0,
+   "len": 2.6,
+   "move": "finale smile"
+  }
+ ],
+ "end_fade": 1.6
+}
