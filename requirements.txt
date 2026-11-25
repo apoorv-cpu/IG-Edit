@@ -1,0 +1,6 @@
+numpy
+scipy
+opencv-python-headless
+mediapipe==1.2.3
+librosa
+yt-dlp
