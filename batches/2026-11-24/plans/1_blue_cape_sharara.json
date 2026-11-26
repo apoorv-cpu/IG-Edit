@@ -6,7 +6,7 @@
  "song_start": 90.604,
  "snap": "beats",
  "grade": {
-  "strength": 0.3,
+  "strength": 0.5,
   "sat_cap": 0.75
  },
  "shots": [
@@ -33,10 +33,10 @@
   },
   {
    "clip": "DSC_4180.MOV",
-   "in": 3.3,
-   "speed": 1.0,
+   "in": 2.0,
+   "speed": 0.5,
    "len": 2.2,
-   "move": "walks closer"
+   "move": "slow walk toward camera"
   },
   {
    "clip": "DSC_4175.MOV",
