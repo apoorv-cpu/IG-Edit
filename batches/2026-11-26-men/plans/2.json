@@ -1,0 +1,93 @@
+{
+ "name": "Navy_Velvet_Jacket_Reel_Rang",
+ "clips_dir": "/tmp/work/clips/2",
+ "song": "/tmp/work/music/rang.wav",
+ "song_json": "/tmp/work/music/rang.json",
+ "song_start": 44.3,
+ "snap": "beats",
+ "denoise": "hqdn3d=1.0:0.8:0:0",
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 168,
+  "gamma_range": [
+   0.75,
+   1.0
+  ],
+  "strength": 1.0,
+  "bright": 0.3,
+  "clar": 0.15
+ },
+ "shots": [
+  {
+   "clip": "DSC_4065.MOV",
+   "in": 0.2,
+   "speed": 1.0,
+   "len": 2.4,
+   "move": "turn to camera, face (opener)"
+  },
+  {
+   "clip": "DSC_4038.MOV",
+   "in": 1.0,
+   "speed": 1.0,
+   "len": 2.2,
+   "move": "hand to rack, pose"
+  },
+  {
+   "clip": "DSC_4050.MOV",
+   "in": 0.5,
+   "speed": 0.5,
+   "len": 2.4,
+   "move": "chest embroidery, pocket square"
+  },
+  {
+   "clip": "DSC_4035.MOV",
+   "in": 3.9,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "slow walk toward camera"
+  },
+  {
+   "clip": "DSC_4051.MOV",
+   "in": 0.6,
+   "speed": 0.5,
+   "len": 2.6,
+   "move": "sleeve embroidery close-up"
+  },
+  {
+   "clip": "DSC_4044.MOV",
+   "in": 7.6,
+   "speed": 1.0,
+   "len": 2.1,
+   "move": "turns to camera"
+  },
+  {
+   "clip": "DSC_4049.MOV",
+   "in": 3.2,
+   "speed": 1.0,
+   "len": 1.9,
+   "move": "cross-leg lean, smile"
+  },
+  {
+   "clip": "DSC_4046.MOV",
+   "in": 2.2,
+   "speed": 0.5,
+   "len": 3.0,
+   "move": "long jacket flare"
+  },
+  {
+   "clip": "DSC_4063.MOV",
+   "in": 0.6,
+   "speed": 1.0,
+   "len": 2.0,
+   "move": "side to front, smile"
+  },
+  {
+   "clip": "DSC_4035.MOV",
+   "in": 5.6,
+   "speed": 1.0,
+   "len": 2.8,
+   "move": "close to camera (finale)"
+  }
+ ],
+ "end_fade": 1.6
+}

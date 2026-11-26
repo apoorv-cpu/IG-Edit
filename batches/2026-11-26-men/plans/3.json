@@ -1,0 +1,80 @@
+{
+ "name": "Wine_Velvet_Jacket_Reel_VeHaaniyaan",
+ "clips_dir": "/tmp/work/clips/3",
+ "song": "/tmp/work/music/vehaaniyaan.wav",
+ "song_json": "/tmp/work/music/vehaaniyaan.json",
+ "song_start": 102.21,
+ "snap": "beats",
+ "denoise": "hqdn3d=1.0:0.8:0:0",
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 168,
+  "gamma_range": [
+   0.75,
+   1.0
+  ],
+  "strength": 0.4,
+  "bright": 0.3,
+  "lift": 0.2,
+  "clar": 0.25
+ },
+ "shots": [
+  {
+   "clip": "DSC_4015.MOV",
+   "in": 3.9,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "jacket swings open, full look (opener)"
+  },
+  {
+   "clip": "DSC_4006.MOV",
+   "in": 4.2,
+   "speed": 0.5,
+   "len": 3.0,
+   "move": "gold pocket square"
+  },
+  {
+   "clip": "DSC_4007.MOV",
+   "in": 4.6,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "collar and buttons"
+  },
+  {
+   "clip": "DSC_4010.MOV",
+   "in": 0.5,
+   "speed": 0.5,
+   "len": 3.0,
+   "move": "zari border pan"
+  },
+  {
+   "clip": "DSC_4017.MOV",
+   "in": 4.7,
+   "speed": 0.5,
+   "len": 2.2,
+   "move": "collar and pocket square"
+  },
+  {
+   "clip": "DSC_4011.MOV",
+   "in": 0.3,
+   "speed": 0.5,
+   "len": 3.0,
+   "move": "hem motif pan"
+  },
+  {
+   "clip": "DSC_4015.MOV",
+   "in": 6.0,
+   "speed": 0.5,
+   "len": 3.0,
+   "move": "jacket swings, full look"
+  },
+  {
+   "clip": "DSC_4021.MOV",
+   "in": 0.5,
+   "speed": 0.5,
+   "len": 4.2,
+   "move": "full front glide (finale)"
+  }
+ ],
+ "end_fade": 1.6
+}
