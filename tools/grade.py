@@ -48,9 +48,10 @@ def _lum(x):
 class ShotGrade:
     """Solve once per shot from sample frames, then apply to every frame."""
     def __init__(self, samples, seg, garment_strength=0.4, garment_sat_cap=0.75, lift=0.0, clar=0.0,
-                 skin_strength=0.7, target_p50=155.0, extra_sat_bg=0.0):
+                 skin_strength=0.7, target_p50=155.0, extra_sat_bg=0.0, gamma_range=(0.85, 1.15), bright=0.0):
         self.gs, self.cap, self.lift, self.clar = garment_strength, garment_sat_cap, lift, clar
         self.extra_sat_bg = extra_sat_bg
+        self.bright = bright
         rg, bg, sat, lum = [], [], [], []
         for f in samples:
             seg.reset()
@@ -78,7 +79,7 @@ class ShotGrade:
         p50 = float(np.median(lum)) if lum else target_p50
         # exposure: gamma so p50 lands near target, capped (no milky lift)
         g = np.log(np.clip(target_p50, 1, 254) / 255) / np.log(np.clip(p50, 1, 254) / 255)
-        self.gamma = float(np.clip(g, 0.85, 1.15))
+        self.gamma = float(np.clip(g, *gamma_range))
         lut = (np.linspace(0, 1, 256) ** self.gamma) * 255
         # soft shoulder: keep whites from blowing
         lut = np.where(lut > 235, 235 + (lut - 235) * 0.6, lut)
@@ -100,6 +101,9 @@ class ShotGrade:
             if self.lift:
                 v = hsv[..., 2] / 255
                 hsv[..., 2] = np.clip(v + self.lift * 0.25 * (1 - v) * (v < 0.5) * (0.5 - v) * 2, 0, 1) * 255
+            if self.bright:   # brighten fabric mids, protect highlights
+                v = hsv[..., 2] / 255
+                hsv[..., 2] = np.clip(v + self.bright * v * (1 - v), 0, 1) * 255
             hsv[..., 1] = s2 * 255
             xg = cv2.cvtColor(hsv.astype(np.uint8), cv2.COLOR_HSV2RGB).astype(np.float32)
             gmask = np.clip(gm - sk, 0, 1)

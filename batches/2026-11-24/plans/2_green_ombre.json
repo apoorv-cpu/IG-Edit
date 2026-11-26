@@ -6,35 +6,41 @@
  "song_start": 84.219,
  "snap": "beats",
  "grade": {
-  "strength": 0.45,
-  "sat_cap": 0.75,
-  "clar": 0.15
+  "strength": 1.0,
+  "sat_cap": 1.0,
+  "clar": 0.15,
+  "bright": 0.35,
+  "p50": 168,
+  "gamma_range": [
+   0.75,
+   1.0
+  ]
  },
  "shots": [
   {
    "clip": "DSC_4167.MOV",
-   "in": 1.6,
+   "in": 1.0,
    "speed": 1.0,
    "len": 2.0,
    "move": "smile to camera, hand to hair (opener)"
   },
   {
    "clip": "DSC_4160.MOV",
-   "in": 0.7,
+   "in": 9.2,
    "speed": 0.5,
    "len": 2.4,
    "move": "dupatta thrown over camera"
   },
   {
-   "clip": "DSC_4159.MOV",
-   "in": 0.5,
+   "clip": "DSC_4168.MOV",
+   "in": 10.1,
    "speed": 0.5,
    "len": 2.5,
    "move": "twirl with dupatta"
   },
   {
-   "clip": "DSC_4162.MOV",
-   "in": 5.4,
+   "clip": "DSC_4156.MOV",
+   "in": 4.7,
    "speed": 1.0,
    "len": 2.0,
    "move": "turn, look over shoulder"
@@ -54,8 +60,8 @@
    "move": "close smile"
   },
   {
-   "clip": "DSC_4161.MOV",
-   "in": 0.4,
+   "clip": "DSC_4158.MOV",
+   "in": 8.8,
    "speed": 0.5,
    "len": 2.0,
    "move": "skirt detail sway"
@@ -103,5 +109,6 @@
    "move": "finale pose"
   }
  ],
- "end_fade": 1.6
+ "end_fade": 1.6,
+ "denoise": "hqdn3d=1.0:0.8:0:0"
 }

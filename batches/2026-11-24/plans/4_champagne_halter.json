@@ -6,14 +6,20 @@
  "song_start": 52.106,
  "snap": "hits",
  "grade": {
-  "strength": 0.25,
-  "sat_cap": 0.75,
-  "clar": 0.15
+  "strength": 0.75,
+  "sat_cap": 1.0,
+  "clar": 0.15,
+  "bright": 0.35,
+  "p50": 168,
+  "gamma_range": [
+   0.75,
+   1.0
+  ]
  },
  "shots": [
   {
    "clip": "DSC_4142.MOV",
-   "in": 1.0,
+   "in": 4.2,
    "speed": 1.0,
    "len": 2.0,
    "move": "turn to camera (opener)"
@@ -27,14 +33,14 @@
   },
   {
    "clip": "DSC_4138.MOV",
-   "in": 0.8,
+   "in": 2.2,
    "speed": 0.5,
    "len": 2.4,
    "move": "dupatta over camera"
   },
   {
    "clip": "DSC_4140.MOV",
-   "in": 4.5,
+   "in": 7.6,
    "speed": 1.0,
    "len": 2.0,
    "move": "walks closer"
@@ -55,14 +61,14 @@
   },
   {
    "clip": "DSC_4139.MOV",
-   "in": 1.0,
+   "in": 6.3,
    "speed": 0.5,
    "len": 2.2,
    "move": "dupatta swirl full"
   },
   {
    "clip": "DSC_4143.MOV",
-   "in": 0.2,
+   "in": 3.8,
    "speed": 1.0,
    "len": 1.8,
    "move": "turn close"
@@ -76,7 +82,7 @@
   },
   {
    "clip": "DSC_4136.MOV",
-   "in": 0.2,
+   "in": 1.6,
    "speed": 1.0,
    "len": 1.8,
    "move": "turn reveal"
@@ -103,5 +109,6 @@
    "move": "finale smile"
   }
  ],
- "end_fade": 1.6
+ "end_fade": 1.6,
+ "denoise": "hqdn3d=1.0:0.8:0:0"
 }

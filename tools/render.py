@@ -87,7 +87,8 @@ def main():
         samples = [frames[0], frames[len(frames) // 2], frames[-1]]
         g = ShotGrade(samples, seg, garment_strength=gp.get("strength", 0.4), garment_sat_cap=gp.get("sat_cap", 0.75),
                       lift=gp.get("lift", 0.0), clar=gp.get("clar", 0.0), skin_strength=gp.get("skin", 0.7),
-                      target_p50=gp.get("p50", 155))
+                      target_p50=gp.get("p50", 155),
+                      gamma_range=tuple(gp.get("gamma_range", (0.85, 1.15))), bright=gp.get("bright", 0.0))
         seg.reset()
         flag = "" if mot >= plan.get("min_start_motion", 0.6) else "  <-- STILL START"
         report.append(f"shot {i:2d} {s['clip']} in {s['in']:.2f} x{s['speed']} {dur:.2f}s  start-motion {mot:.2f}"
@@ -117,13 +118,14 @@ def main():
                     "-af", f"afade=t=in:d=0.02,afade=t=out:st={total - fade:.3f}:d={fade},loudnorm=I=-14:TP=-1.5:LRA=11",
                     "-ar", "48000", "-c:a", "aac", "-b:a", "256k", aud], check=True)
     base = os.path.join(out_dir, name)
+    dn = plan.get("denoise", "hqdn3d=1.0:0.8:2.2:1.8")   # set temporal parts to 0 to avoid motion smear
     f1080 = f"{base}_1080p.mp4"; f4k = f"{base}_4K.mp4"
     subprocess.run([FFMPEG, "-v", "error", "-y", "-i", tmp, "-i", aud, "-map", "0:v", "-map", "1:a",
-                    "-vf", "hqdn3d=1.0:0.8:2.2:1.8,unsharp=5:5:0.35",
+                    "-vf", f"{dn},unsharp=5:5:0.35",
                     "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", "-r", "30",
                     "-c:a", "copy", "-shortest", "-movflags", "+faststart", f1080], check=True)
     subprocess.run([FFMPEG, "-v", "error", "-y", "-i", tmp, "-i", aud, "-map", "0:v", "-map", "1:a",
-                    "-vf", "hqdn3d=1.0:0.8:2.2:1.8,scale=2160:3840:flags=lanczos,unsharp=5:5:0.40",
+                    "-vf", f"{dn},scale=2160:3840:flags=lanczos,unsharp=5:5:0.40",
                     "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", "-r", "30",
                     "-profile:v", "high", "-level", "5.1",
                     "-c:a", "copy", "-shortest", "-movflags", "+faststart", f4k], check=True)

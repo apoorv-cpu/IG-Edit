@@ -6,9 +6,15 @@
  "song_start": 8.266,
  "snap": "beats",
  "grade": {
-  "strength": 0.2,
-  "sat_cap": 0.75,
-  "clar": 0.15
+  "strength": 1.0,
+  "sat_cap": 1.0,
+  "clar": 0.15,
+  "bright": 0.35,
+  "p50": 168,
+  "gamma_range": [
+   0.75,
+   1.0
+  ]
  },
  "shots": [
   {
@@ -19,8 +25,8 @@
    "move": "enters dancing, face (opener)"
   },
   {
-   "clip": "DSC_4108.MOV",
-   "in": 1.0,
+   "clip": "DSC_4106.MOV",
+   "in": 9.0,
    "speed": 0.5,
    "len": 2.5,
    "move": "twirl"
@@ -41,7 +47,7 @@
   },
   {
    "clip": "DSC_4112.MOV",
-   "in": 4.5,
+   "in": 10.5,
    "speed": 1.0,
    "len": 1.9,
    "move": "walks in"
@@ -69,7 +75,7 @@
   },
   {
    "clip": "DSC_4103.MOV",
-   "in": 4.5,
+   "in": 7.8,
    "speed": 1.0,
    "len": 1.9,
    "move": "dupatta drape"
@@ -103,5 +109,6 @@
    "move": "finale"
   }
  ],
- "end_fade": 1.6
+ "end_fade": 1.6,
+ "denoise": "hqdn3d=1.0:0.8:0:0"
 }
