@@ -1,0 +1,72 @@
+{
+ "name": "Black_Elephant_Jacket_Reel_Shoorveer",
+ "clips_dir": "/tmp/work/clips/1",
+ "song": "/tmp/work/music/shoorveer.wav",
+ "song_json": "/tmp/work/music/shoorveer.json",
+ "song_start": 41.66,
+ "snap": "beats",
+ "denoise": "hqdn3d=1.0:0.8:0:0",
+ "min_start_motion": 1.0,
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 1.0,
+  "clar": 0.25
+ },
+ "shots": [
+  {
+   "clip": "DSC_4080.MOV",
+   "in": 7.35,
+   "speed": 0.5,
+   "len": 1.9,
+   "move": "holds lapels open, looks at camera (opener)"
+  },
+  {
+   "clip": "DSC_4072.MOV",
+   "in": 0.62,
+   "speed": 0.5,
+   "len": 3.3,
+   "move": "elephant embroidery, hand glides down"
+  },
+  {
+   "clip": "DSC_4071.MOV",
+   "in": 3.65,
+   "speed": 0.5,
+   "len": 3.3,
+   "move": "walks up to camera"
+  },
+  {
+   "clip": "DSC_4074.MOV",
+   "in": 2.3,
+   "speed": 0.5,
+   "len": 4.0,
+   "move": "sleeve and border detail"
+  },
+  {
+   "clip": "DSC_4083.MOV",
+   "in": 1.3,
+   "speed": 0.5,
+   "len": 4.6,
+   "move": "side walk and turn"
+  },
+  {
+   "clip": "DSC_4074.MOV",
+   "in": 1.0,
+   "speed": 0.5,
+   "len": 2.4,
+   "move": "cuff elephants"
+  },
+  {
+   "clip": "DSC_4085.MOV",
+   "in": 3.55,
+   "speed": 0.5,
+   "len": 4.8,
+   "move": "turns to camera and smiles (finale)"
+  }
+ ],
+ "end_fade": 1.6
+}
