@@ -1,0 +1,74 @@
+{
+ "name": "Navy_Velvet_Jacket_Reel_Rang",
+ "clips_dir": "/tmp/work/clips/2",
+ "song": "/tmp/work/music/rang.wav",
+ "song_json": "/tmp/work/music/rang.json",
+ "song_start": 44.3,
+ "snap": "beats",
+ "denoise": "hqdn3d=1.0:0.8:0:0",
+ "min_start_motion": 1.0,
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 1.3,
+  "bright": 0.15,
+  "lift": 0.15,
+  "clar": 0.15
+ },
+ "shots": [
+  {
+   "clip": "DSC_4049.MOV",
+   "in": 1.3,
+   "speed": 0.5,
+   "len": 4.4,
+   "move": "walks toward camera (opener)"
+  },
+  {
+   "clip": "DSC_4051.MOV",
+   "in": 1.0,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "hand over sleeve embroidery"
+  },
+  {
+   "clip": "DSC_4035.MOV",
+   "in": 0.5,
+   "speed": 0.5,
+   "len": 3.4,
+   "move": "turns from back to face camera"
+  },
+  {
+   "clip": "DSC_4050.MOV",
+   "in": 1.8,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "hand by pocket square"
+  },
+  {
+   "clip": "DSC_4038.MOV",
+   "in": 1.05,
+   "speed": 0.5,
+   "len": 2.8,
+   "move": "walk across the store"
+  },
+  {
+   "clip": "DSC_4065.MOV",
+   "in": 0.8,
+   "speed": 0.5,
+   "len": 2.2,
+   "move": "three-quarter, looks around"
+  },
+  {
+   "clip": "DSC_4063.MOV",
+   "in": 0.0,
+   "speed": 0.5,
+   "len": 4.2,
+   "move": "profile turns to front (finale)"
+  }
+ ],
+ "end_fade": 1.6
+}
