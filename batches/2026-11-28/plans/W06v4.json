@@ -1,0 +1,106 @@
+{
+ "name": "Bottle_Green_Cape_Lehenga_Reel_Barbaad_v4",
+ "clips_dir": "/home/user/work/clips/27-11-26_1",
+ "song": "/home/user/work/music/barbaad.wav",
+ "song_json": "/home/user/work/music/barbaad.json",
+ "song_start": 96.734,
+ "snap": "beats",
+ "denoise": "hqdn3d=1.0:0.8:0:0",
+ "min_start_motion": 0.6,
+ "only_4k": true,
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 1.3,
+  "lift": 0.15,
+  "clar": 0.15
+ },
+ "shots": [
+  {
+   "clip": "DSC_4427.MOV",
+   "in": 0.5,
+   "speed": 1.0,
+   "len": 1.5,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4430.MOV",
+   "in": 0.1,
+   "speed": 1.0,
+   "len": 1.4,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4431.MOV",
+   "in": 4.6,
+   "speed": 1.0,
+   "len": 1.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4432.MOV",
+   "in": 0.6,
+   "speed": 1.0,
+   "len": 1.4,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4428.MOV",
+   "in": 1.0,
+   "speed": 1.0,
+   "len": 1.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4426.MOV",
+   "in": 0.6,
+   "speed": 1.0,
+   "len": 1.3,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4429.MOV",
+   "in": 3.8,
+   "speed": 1.0,
+   "len": 1.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4426.MOV",
+   "in": 5.8,
+   "speed": 1.0,
+   "len": 1.4,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4432.MOV",
+   "in": 9.8,
+   "speed": 1.0,
+   "len": 1.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4436.MOV",
+   "in": 2.0,
+   "speed": 1.0,
+   "len": 1.3,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4432.MOV",
+   "in": 6.4,
+   "speed": 1.0,
+   "len": 1.3,
+   "move": "picked"
+  }
+ ],
+ "end_fade": 1.5,
+ "hook": {
+  "text": "Engagement look?\nThis one wins.",
+  "dur": 3.0
+ }
+}

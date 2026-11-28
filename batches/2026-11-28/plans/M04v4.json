@@ -1,0 +1,99 @@
+{
+ "name": "Black_Zari_Sherwani_Reel_Dhurandhar_v4",
+ "clips_dir": "/home/user/work/clips_stab/4",
+ "song": "/home/user/work/music/dhurandhar.wav",
+ "song_json": "/home/user/work/music/dhurandhar.json",
+ "song_start": 37.547,
+ "snap": "beats",
+ "denoise": "hqdn3d=1.0:0.8:0:0",
+ "min_start_motion": 0.6,
+ "only_4k": true,
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 1.3,
+  "lift": 0.15,
+  "clar": 0.15
+ },
+ "shots": [
+  {
+   "clip": "DSC_4322.MOV",
+   "in": 5.0,
+   "speed": 1.0,
+   "len": 1.5,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4320.MOV",
+   "in": 0.8,
+   "speed": 1.0,
+   "len": 1.3,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4310.MOV",
+   "in": 0.1,
+   "speed": 1.0,
+   "len": 1.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4319.MOV",
+   "in": 1.0,
+   "speed": 1.0,
+   "len": 1.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4313.MOV",
+   "in": 1.6,
+   "speed": 1.0,
+   "len": 1.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4306.MOV",
+   "in": 1.0,
+   "speed": 1.0,
+   "len": 1.3,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4311.MOV",
+   "in": 0.2,
+   "speed": 1.0,
+   "len": 1.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4317.MOV",
+   "in": 0.1,
+   "speed": 1.0,
+   "len": 1.3,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4310.MOV",
+   "in": 2.6,
+   "speed": 1.0,
+   "len": 1.3,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4306.MOV",
+   "in": 3.6,
+   "speed": 1.0,
+   "len": 1.6,
+   "move": "picked"
+  }
+ ],
+ "end_fade": 1.5,
+ "hook": {
+  "text": "Your wedding day\nsherwani?",
+  "dur": 3.0
+ }
+}

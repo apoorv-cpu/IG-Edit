@@ -45,7 +45,7 @@ def check_overlap(plan, cuts):
 def shot_frames(path, t_in, dur, speed):
     n = int(round(dur * OUT_FPS))
     if speed == 1.0:
-        it = read_frames(path, t_in, dur + 0.2, fps=OUT_FPS)
+        it = sharp_pairs(read_frames(path, t_in, dur + 0.2, fps=None))   # 59.94 -> 30: keep the sharper of each pair
     elif speed == 0.5:
         it = read_frames(path, t_in, dur * 0.5 + 0.2, fps=None)   # native 59.94 frames played at 30
     else:
@@ -58,6 +58,20 @@ def shot_frames(path, t_in, dur, speed):
     if len(out) < n:
         raise SystemExit(f"{os.path.basename(path)} @ {t_in:.2f}: only {len(out)}/{n} frames (clip too short)")
     return out
+
+
+def _lap(f):
+    g = cv2.cvtColor(cv2.resize(f, (270, 480)), cv2.COLOR_RGB2GRAY)
+    return cv2.Laplacian(g, cv2.CV_32F).var()
+
+
+def sharp_pairs(it):
+    buf = []
+    for f in it:
+        buf.append(f)
+        if len(buf) == 2:
+            yield buf[0] if _lap(buf[0]) >= _lap(buf[1]) else buf[1]
+            buf = []
 
 
 def start_motion(frames, k=8):
@@ -125,12 +139,23 @@ def main():
                     "-vf", f"{dn},unsharp=5:5:0.35",
                     "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", "-r", "30",
                     "-c:a", "copy", "-shortest", "-movflags", "+faststart", f1080], check=True)
-    subprocess.run([FFMPEG, "-v", "error", "-y", "-i", tmp, "-i", aud, "-map", "0:v", "-map", "1:a",
-                    "-vf", f"{dn},scale=2160:3840:flags=lanczos,unsharp=5:5:0.40",
+    hook = plan.get("hook")
+    v4 = f"{dn},scale=2160:3840:flags=lanczos,unsharp=5:5:0.40"
+    if hook:
+        from hooktext import make
+        png = os.path.join(out_dir, f".{name}_hook.png"); make(hook["text"], png)
+        hd = hook.get("dur", 3.0)
+        vargs = ["-loop", "1", "-t", f"{hd}", "-i", png, "-filter_complex",
+                 f"[0:v]{v4}[b];[2:v]format=rgba,fade=t=out:st={hd - 0.3}:d=0.3:alpha=1[t];"
+                 f"[b][t]overlay=0:0:eof_action=pass[v]", "-map", "[v]"]
+    else:
+        vargs = ["-vf", v4, "-map", "0:v"]
+    subprocess.run([FFMPEG, "-v", "error", "-y", "-i", tmp, "-i", aud] + vargs + ["-map", "1:a",
                     "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p", "-r", "30",
                     "-profile:v", "high", "-level", "5.1",
                     "-c:a", "copy", "-shortest", "-movflags", "+faststart", f4k], check=True)
     os.remove(tmp); os.remove(aud)
+    if hook: os.remove(png)
     # verify
     for f in ((f4k,) if only4k else (f1080, f4k)):
         r = subprocess.run([FFPROBE, "-v", "error", "-select_streams", "v:0", "-count_frames", "-show_entries",
