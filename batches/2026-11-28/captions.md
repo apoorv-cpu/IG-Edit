@@ -1,4 +1,4 @@
-# Captions: reels batch 28 Nov 2026 (11 women's, 8 men's)
+# Captions: reels batch 28 Nov 2026 (11 women's, 7 men's; tuxedo held back)
 
 Colour and detail names are written from the footage. Please check them against the real pieces before posting.
 Each caption puts the occasion line first, then the Comment KEYWORD line, the details, a tag or share ask (shares drive reach), the address and five hashtags.
@@ -148,14 +148,6 @@ A navy sherwani with tonal paisley embroidery and a structured fit.
 Send this to the groom who wants something other than cream.
 📍 5 Kailashpuri, Tonk Road, Jaipur
 #daabujaipur #navysherwani #groomwear #sherwaniformen #weddingwearformen
-
-### M07. Black tuxedo (keyword: TUX)
-Reception night, black tie, no notes.
-Comment TUX and we'll DM you the price.
-A black tuxedo with satin lapels, a bow tie and a brooch chain. Classic, sharp and made to fit.
-Tag the man who'd look good in this.
-📍 5 Kailashpuri, Tonk Road, Jaipur
-#daabujaipur #tuxedo #receptionlook #groomtuxedo #mensfashion
 
 ### M08. Butter yellow elephant sherwani (keyword: BUTTER)
 Day wedding groom, sunshine edition.

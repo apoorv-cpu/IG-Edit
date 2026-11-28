@@ -59,13 +59,6 @@
    "speed": 0.5,
    "len": 3.2,
    "move": "picked"
-  },
-  {
-   "clip": "DSC_4247.MOV",
-   "in": 5.33,
-   "speed": 0.5,
-   "len": 2.4,
-   "move": "picked"
   }
  ],
  "end_fade": 1.5
