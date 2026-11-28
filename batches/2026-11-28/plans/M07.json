@@ -1,0 +1,67 @@
+{
+ "name": "Black_Tuxedo_Reel_GOAT",
+ "clips_dir": "/home/user/work/clips/21-11-26_2",
+ "song": "/home/user/work/music/goat.wav",
+ "song_json": "/home/user/work/music/goat.json",
+ "song_start": 97.547,
+ "snap": "beats",
+ "denoise": "hqdn3d=1.0:0.8:0:0",
+ "min_start_motion": 0.6,
+ "only_4k": true,
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 1.3,
+  "lift": 0.15,
+  "clar": 0.15
+ },
+ "shots": [
+  {
+   "clip": "DSC_3929.MOV",
+   "in": 4.93,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3932.MOV",
+   "in": 1.13,
+   "speed": 0.5,
+   "len": 2.8,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3923.MOV",
+   "in": 3.53,
+   "speed": 0.5,
+   "len": 2.8,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3928.MOV",
+   "in": 5.13,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3925.MOV",
+   "in": 5.3,
+   "speed": 0.5,
+   "len": 2.8,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3932.MOV",
+   "in": 4.13,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  }
+ ],
+ "end_fade": 1.5
+}

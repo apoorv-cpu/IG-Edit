@@ -1,0 +1,20 @@
+{
+ "name": "Yellow_Haldi_Lehenga_Reel_MangalRang",
+ "clips_dir": "/home/user/work/clips/pending_1",
+ "song": "/home/user/work/music/mangalrang.wav",
+ "song_start": 48.74,
+ "kind": "model",
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 0.6
+ },
+ "total": 24.0,
+ "ban": {},
+ "exclude": [],
+ "per_clip": 1
+}

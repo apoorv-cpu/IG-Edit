@@ -1,0 +1,74 @@
+{
+ "name": "Brown_Paisley_Indowestern_Reel_Guzarish",
+ "clips_dir": "/home/user/work/clips/1",
+ "song": "/home/user/work/music/guzarish.wav",
+ "song_json": "/home/user/work/music/guzarish.json",
+ "song_start": 77.648,
+ "snap": "beats",
+ "denoise": "hqdn3d=1.0:0.8:0:0",
+ "min_start_motion": 0.6,
+ "only_4k": true,
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 1.3,
+  "lift": 0.15,
+  "clar": 0.15
+ },
+ "shots": [
+  {
+   "clip": "DSC_4386.MOV",
+   "in": 0.13,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4375.MOV",
+   "in": 2.73,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4377.MOV",
+   "in": 0.73,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4374.MOV",
+   "in": 0.73,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4378.MOV",
+   "in": 0.53,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4385.MOV",
+   "in": 1.93,
+   "speed": 0.5,
+   "len": 2.8,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4387.MOV",
+   "in": 5.73,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  }
+ ],
+ "end_fade": 1.5
+}

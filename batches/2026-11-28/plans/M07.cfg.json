@@ -1,0 +1,42 @@
+{
+ "name": "Black_Tuxedo_Reel_GOAT",
+ "clips_dir": "/home/user/work/clips/21-11-26_2",
+ "song": "/home/user/work/music/goat.wav",
+ "song_start": 97.5,
+ "kind": "mannequin",
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 1.3,
+  "lift": 0.15,
+  "clar": 0.15
+ },
+ "total": 20,
+ "ban": {
+  "DSC_3925.MOV": [
+   [
+    0,
+    4
+   ]
+  ],
+  "DSC_3926.MOV": [
+   [
+    0,
+    4.2
+   ]
+  ]
+ },
+ "exclude": [
+  "DSC_3920.MOV",
+  "DSC_3922.MOV",
+  "DSC_3923.MOV",
+  "DSC_3924.MOV",
+  "DSC_3927.MOV",
+  "DSC_3928.MOV"
+ ],
+ "per_clip": 2
+}

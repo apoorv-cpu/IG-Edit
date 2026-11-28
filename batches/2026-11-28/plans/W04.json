@@ -1,0 +1,74 @@
+{
+ "name": "Black_Sequin_Lehenga_Reel_Mashooqa",
+ "clips_dir": "/home/user/work/clips/25-11-26_4",
+ "song": "/home/user/work/music/mashooqa.wav",
+ "song_json": "/home/user/work/music/mashooqa.json",
+ "song_start": 48.855,
+ "snap": "beats",
+ "denoise": "hqdn3d=1.0:0.8:0:0",
+ "min_start_motion": 0.6,
+ "only_4k": true,
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 1.3,
+  "lift": 0.15,
+  "clar": 0.15
+ },
+ "shots": [
+  {
+   "clip": "DSC_4222.MOV",
+   "in": 5.13,
+   "speed": 0.5,
+   "len": 2.8,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4221.MOV",
+   "in": 2.73,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4217.MOV",
+   "in": 0.53,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4224.MOV",
+   "in": 0.13,
+   "speed": 0.5,
+   "len": 2.8,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4223.MOV",
+   "in": 7.13,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4219.MOV",
+   "in": 3.13,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4220.MOV",
+   "in": 4.53,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  }
+ ],
+ "end_fade": 1.5
+}

@@ -1,0 +1,20 @@
+{
+ "name": "Lilac_Flared_Kurta_Sharara_Reel_NazarLagi",
+ "clips_dir": "/home/user/work/clips/25-11-26_2",
+ "song": "/home/user/work/music/nazarlagi.wav",
+ "song_start": 64.48,
+ "kind": "model",
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 0.5
+ },
+ "total": 24.0,
+ "ban": {},
+ "exclude": [],
+ "per_clip": 1
+}

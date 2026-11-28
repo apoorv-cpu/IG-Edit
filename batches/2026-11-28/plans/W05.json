@@ -1,0 +1,65 @@
+{
+ "name": "Orange_Anarkali_Reel_JiJiReJi",
+ "clips_dir": "/home/user/work/clips/25-11-26_5",
+ "song": "/home/user/work/music/jijireji.wav",
+ "song_json": "/home/user/work/music/jijireji.json",
+ "song_start": 152.625,
+ "snap": "beats",
+ "denoise": "hqdn3d=1.0:0.8:0:0",
+ "min_start_motion": 0.6,
+ "only_4k": true,
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 1.0
+ },
+ "shots": [
+  {
+   "clip": "DSC_4192.MOV",
+   "in": 0.13,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4214.MOV",
+   "in": 1.53,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4213.MOV",
+   "in": 5.13,
+   "speed": 0.5,
+   "len": 2.8,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4204.MOV",
+   "in": 2.53,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4209.MOV",
+   "in": 7.53,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4201.MOV",
+   "in": 5.33,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  }
+ ],
+ "end_fade": 1.5
+}

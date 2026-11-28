@@ -1,0 +1,29 @@
+{
+ "name": "Black_Sequin_Lehenga_Reel_Mashooqa",
+ "clips_dir": "/home/user/work/clips/25-11-26_4",
+ "song": "/home/user/work/music/mashooqa.wav",
+ "song_start": 49.0,
+ "kind": "model",
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 1.3,
+  "lift": 0.15,
+  "clar": 0.15
+ },
+ "total": 24.0,
+ "ban": {
+  "DSC_4216.MOV": [
+   [
+    0,
+    2.5
+   ]
+  ]
+ },
+ "exclude": [],
+ "per_clip": 1
+}

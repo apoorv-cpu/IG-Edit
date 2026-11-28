@@ -1,0 +1,60 @@
+{
+ "name": "Navy_Paisley_Sherwani_Reel_AavanJaavan",
+ "clips_dir": "/home/user/work/clips/21-11-26_1",
+ "song": "/home/user/work/music/aavanjaavan.wav",
+ "song_json": "/home/user/work/music/aavanjaavan.json",
+ "song_start": 76.649,
+ "snap": "beats",
+ "denoise": "hqdn3d=1.0:0.8:0:0",
+ "min_start_motion": 0.6,
+ "only_4k": true,
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 1.3,
+  "lift": 0.15,
+  "clar": 0.15
+ },
+ "shots": [
+  {
+   "clip": "DSC_3958.MOV",
+   "in": 4.33,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3960.MOV",
+   "in": 0.93,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3968.MOV",
+   "in": 2.53,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3960.MOV",
+   "in": 3.93,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3956.MOV",
+   "in": 1.53,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  }
+ ],
+ "end_fade": 1.5
+}

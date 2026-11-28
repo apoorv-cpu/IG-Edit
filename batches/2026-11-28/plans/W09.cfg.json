@@ -1,0 +1,20 @@
+{
+ "name": "Peach_Chikankari_Suit_Reel_TeraMeraRishta",
+ "clips_dir": "/home/user/work/clips/nn_3",
+ "song": "/home/user/work/music/terameraristha.wav",
+ "song_start": 117.5,
+ "kind": "model",
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 0.5
+ },
+ "total": 24.0,
+ "ban": {},
+ "exclude": [],
+ "per_clip": 1
+}

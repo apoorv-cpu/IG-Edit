@@ -1,0 +1,65 @@
+{
+ "name": "Peach_Chikankari_Suit_Reel_TeraMeraRishta",
+ "clips_dir": "/home/user/work/clips/nn_3",
+ "song": "/home/user/work/music/terameraristha.wav",
+ "song_json": "/home/user/work/music/terameraristha.json",
+ "song_start": 117.702,
+ "snap": "beats",
+ "denoise": "hqdn3d=1.0:0.8:0:0",
+ "min_start_motion": 0.6,
+ "only_4k": true,
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 0.5
+ },
+ "shots": [
+  {
+   "clip": "DSC_3204.MOV",
+   "in": 2.73,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3198.MOV",
+   "in": 0.13,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3203.MOV",
+   "in": 6.33,
+   "speed": 0.5,
+   "len": 2.0,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3202.MOV",
+   "in": 4.53,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3192.MOV",
+   "in": 1.53,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3196.MOV",
+   "in": 2.13,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  }
+ ],
+ "end_fade": 1.5
+}

@@ -1,0 +1,72 @@
+{
+ "name": "Yellow_Haldi_Lehenga_Reel_MangalRang",
+ "clips_dir": "/home/user/work/clips/pending_1",
+ "song": "/home/user/work/music/mangalrang.wav",
+ "song_json": "/home/user/work/music/mangalrang.json",
+ "song_start": 48.785,
+ "snap": "beats",
+ "denoise": "hqdn3d=1.0:0.8:0:0",
+ "min_start_motion": 0.6,
+ "only_4k": true,
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 0.6
+ },
+ "shots": [
+  {
+   "clip": "DSC_3815.MOV",
+   "in": 4.33,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3812.MOV",
+   "in": 5.93,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3821.MOV",
+   "in": 0.33,
+   "speed": 0.5,
+   "len": 2.8,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3811.MOV",
+   "in": 10.33,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3814.MOV",
+   "in": 7.33,
+   "speed": 0.5,
+   "len": 2.4,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3813.MOV",
+   "in": 1.33,
+   "speed": 0.5,
+   "len": 2.4,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3816.MOV",
+   "in": 6.33,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  }
+ ],
+ "end_fade": 1.5
+}

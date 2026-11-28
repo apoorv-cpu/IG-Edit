@@ -1,0 +1,72 @@
+{
+ "name": "Blush_Cape_Sharara_Reel_TuMilJaaye",
+ "clips_dir": "/home/user/work/clips/25-11-26_1",
+ "song": "/home/user/work/music/tumiljaaye.wav",
+ "song_json": "/home/user/work/music/tumiljaaye.json",
+ "song_start": 85.589,
+ "snap": "beats",
+ "denoise": "hqdn3d=1.0:0.8:0:0",
+ "min_start_motion": 0.6,
+ "only_4k": true,
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 0.5
+ },
+ "shots": [
+  {
+   "clip": "DSC_4259.MOV",
+   "in": 1.93,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4266.MOV",
+   "in": 6.33,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4264.MOV",
+   "in": 4.13,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4269.MOV",
+   "in": 1.53,
+   "speed": 0.5,
+   "len": 2.4,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4261.MOV",
+   "in": 6.53,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4271.MOV",
+   "in": 1.73,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4268.MOV",
+   "in": 7.13,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  }
+ ],
+ "end_fade": 1.5
+}

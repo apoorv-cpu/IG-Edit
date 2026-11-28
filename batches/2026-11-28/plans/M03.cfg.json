@@ -1,0 +1,25 @@
+{
+ "name": "Black_Rose_Floral_Bandhgala_Reel_Haseen",
+ "clips_dir": "/home/user/work/clips/3",
+ "song": "/home/user/work/music/haseen.wav",
+ "song_start": 33.5,
+ "kind": "mannequin",
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 1.3,
+  "lift": 0.15,
+  "clar": 0.15
+ },
+ "total": 24.0,
+ "ban": {},
+ "exclude": [
+  "DSC_4338.MOV",
+  "DSC_4339.MOV"
+ ],
+ "per_clip": 1
+}

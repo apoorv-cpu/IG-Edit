@@ -1,0 +1,45 @@
+{
+ "name": "Navy_Paisley_Sherwani_Reel_AavanJaavan",
+ "clips_dir": "/home/user/work/clips/21-11-26_1",
+ "song": "/home/user/work/music/aavanjaavan.wav",
+ "song_start": 76.81,
+ "kind": "mannequin",
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 1.3,
+  "lift": 0.15,
+  "clar": 0.15
+ },
+ "total": 24.0,
+ "ban": {
+  "DSC_3957.MOV": [
+   [
+    1.5,
+    8
+   ]
+  ],
+  "DSC_3965.MOV": [
+   [
+    0,
+    1.8
+   ]
+  ]
+ },
+ "exclude": [
+  "DSC_3952.MOV",
+  "DSC_3953.MOV",
+  "DSC_3961.MOV",
+  "DSC_3962.MOV",
+  "DSC_3963.MOV",
+  "DSC_3964.MOV",
+  "DSC_3966.MOV",
+  "DSC_3969.MOV",
+  "DSC_3971.MOV"
+ ],
+ "per_clip": 1
+}

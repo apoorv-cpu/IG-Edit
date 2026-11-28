@@ -1,0 +1,22 @@
+{
+ "name": "Butter_Yellow_Elephant_Sherwani_Reel_Deewane",
+ "clips_dir": "/home/user/work/clips/21-11-26_3",
+ "song": "/home/user/work/music/deewane.wav",
+ "song_start": 22.0,
+ "kind": "mannequin",
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 0.5
+ },
+ "total": 24.0,
+ "ban": {},
+ "exclude": [
+  "DSC_3917.MOV"
+ ],
+ "per_clip": 1
+}

@@ -120,7 +120,8 @@ def main():
     base = os.path.join(out_dir, name)
     dn = plan.get("denoise", "hqdn3d=1.0:0.8:2.2:1.8")   # set temporal parts to 0 to avoid motion smear
     f1080 = f"{base}_1080p.mp4"; f4k = f"{base}_4K.mp4"
-    subprocess.run([FFMPEG, "-v", "error", "-y", "-i", tmp, "-i", aud, "-map", "0:v", "-map", "1:a",
+    only4k = plan.get("only_4k", False)
+    if not only4k: subprocess.run([FFMPEG, "-v", "error", "-y", "-i", tmp, "-i", aud, "-map", "0:v", "-map", "1:a",
                     "-vf", f"{dn},unsharp=5:5:0.35",
                     "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", "-r", "30",
                     "-c:a", "copy", "-shortest", "-movflags", "+faststart", f1080], check=True)
@@ -131,7 +132,7 @@ def main():
                     "-c:a", "copy", "-shortest", "-movflags", "+faststart", f4k], check=True)
     os.remove(tmp); os.remove(aud)
     # verify
-    for f in (f1080, f4k):
+    for f in ((f4k,) if only4k else (f1080, f4k)):
         r = subprocess.run([FFPROBE, "-v", "error", "-select_streams", "v:0", "-count_frames", "-show_entries",
                             "stream=width,height,r_frame_rate,nb_read_frames", "-of", "csv=p=0", f],
                            capture_output=True, text=True).stdout.strip()

@@ -1,0 +1,20 @@
+{
+ "name": "Gold_Tissue_Lehenga_Reel_JaiyeSajana",
+ "clips_dir": "/home/user/work/clips/pending_2",
+ "song": "/home/user/work/music/jaiyesajana.wav",
+ "song_start": 18.48,
+ "kind": "model",
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 0.3
+ },
+ "total": 24.0,
+ "ban": {},
+ "exclude": [],
+ "per_clip": 1
+}

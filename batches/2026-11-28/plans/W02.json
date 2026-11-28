@@ -1,0 +1,72 @@
+{
+ "name": "Lilac_Flared_Kurta_Sharara_Reel_NazarLagi",
+ "clips_dir": "/home/user/work/clips/25-11-26_2",
+ "song": "/home/user/work/music/nazarlagi.wav",
+ "song_json": "/home/user/work/music/nazarlagi.json",
+ "song_start": 64.319,
+ "snap": "beats",
+ "denoise": "hqdn3d=1.0:0.8:0:0",
+ "min_start_motion": 0.6,
+ "only_4k": true,
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 0.5
+ },
+ "shots": [
+  {
+   "clip": "DSC_4256.MOV",
+   "in": 1.13,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4250.MOV",
+   "in": 2.73,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4249.MOV",
+   "in": 7.73,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4257.MOV",
+   "in": 7.33,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4248.MOV",
+   "in": 0.13,
+   "speed": 0.5,
+   "len": 2.4,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4246.MOV",
+   "in": 3.33,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4247.MOV",
+   "in": 5.33,
+   "speed": 0.5,
+   "len": 2.4,
+   "move": "picked"
+  }
+ ],
+ "end_fade": 1.5
+}

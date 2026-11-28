@@ -1,0 +1,22 @@
+{
+ "name": "Bottle_Green_Cape_Lehenga_Reel_Barbaad",
+ "clips_dir": "/home/user/work/clips/27-11-26_1",
+ "song": "/home/user/work/music/barbaad.wav",
+ "song_start": 96.5,
+ "kind": "model",
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 1.3,
+  "lift": 0.15,
+  "clar": 0.15
+ },
+ "total": 24.0,
+ "ban": {},
+ "exclude": [],
+ "per_clip": 1
+}

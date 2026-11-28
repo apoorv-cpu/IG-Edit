@@ -1,0 +1,65 @@
+{
+ "name": "Ivory_Fishtail_Lehenga_Reel_Laavan",
+ "clips_dir": "/home/user/work/clips/25-11-26_3",
+ "song": "/home/user/work/music/laavan.wav",
+ "song_json": "/home/user/work/music/laavan.json",
+ "song_start": 38.754,
+ "snap": "beats",
+ "denoise": "hqdn3d=1.0:0.8:0:0",
+ "min_start_motion": 0.6,
+ "only_4k": true,
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 0.3
+ },
+ "shots": [
+  {
+   "clip": "DSC_4239.MOV",
+   "in": 8.13,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4232.MOV",
+   "in": 0.93,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4234.MOV",
+   "in": 2.73,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4240.MOV",
+   "in": 3.13,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4236.MOV",
+   "in": 5.53,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_4235.MOV",
+   "in": 7.73,
+   "speed": 0.5,
+   "len": 2.4,
+   "move": "picked"
+  }
+ ],
+ "end_fade": 1.5
+}

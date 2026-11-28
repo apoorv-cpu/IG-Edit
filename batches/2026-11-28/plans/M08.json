@@ -1,0 +1,65 @@
+{
+ "name": "Butter_Yellow_Elephant_Sherwani_Reel_Deewane",
+ "clips_dir": "/home/user/work/clips/21-11-26_3",
+ "song": "/home/user/work/music/deewane.wav",
+ "song_json": "/home/user/work/music/deewane.json",
+ "song_start": 22.198,
+ "snap": "beats",
+ "denoise": "hqdn3d=1.0:0.8:0:0",
+ "min_start_motion": 0.6,
+ "only_4k": true,
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 0.5
+ },
+ "shots": [
+  {
+   "clip": "DSC_3901.MOV",
+   "in": 1.53,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3907.MOV",
+   "in": 0.13,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3912.MOV",
+   "in": 1.33,
+   "speed": 0.5,
+   "len": 3.6,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3914.MOV",
+   "in": 0.33,
+   "speed": 0.5,
+   "len": 3.2,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3905.MOV",
+   "in": 1.93,
+   "speed": 0.5,
+   "len": 2.4,
+   "move": "picked"
+  },
+  {
+   "clip": "DSC_3918.MOV",
+   "in": 3.53,
+   "speed": 0.5,
+   "len": 2.4,
+   "move": "picked"
+  }
+ ],
+ "end_fade": 1.5
+}

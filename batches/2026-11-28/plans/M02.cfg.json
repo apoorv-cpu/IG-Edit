@@ -1,0 +1,31 @@
+{
+ "name": "Black_Floral_Jacket_Reel_WinningSpeech",
+ "clips_dir": "/home/user/work/clips/2",
+ "song": "/home/user/work/music/winningspeech.wav",
+ "song_start": 42.0,
+ "kind": "mannequin",
+ "grade": {
+  "sat_cap": 1.0,
+  "p50": 150,
+  "gamma_range": [
+   1.0,
+   1.0
+  ],
+  "strength": 1.3,
+  "lift": 0.15,
+  "clar": 0.15
+ },
+ "total": 24.0,
+ "ban": {
+  "DSC_4343.MOV": [
+   [
+    0.5,
+    5.2
+   ]
+  ]
+ },
+ "exclude": [
+  "DSC_4355.MOV"
+ ],
+ "per_clip": 1
+}
